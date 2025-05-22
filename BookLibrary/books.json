@@ -1,0 +1,74 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925,
+    "description": "A story about the mysterious millionaire Jay Gatsby and his passion for the beautiful Daisy Buchanan."
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "description": "A dystopian novel set in a totalitarian society ruled by Big Brother."
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "description": "The story of racial injustice and the loss of innocence in the American South."
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "description": "A romantic novel of manners that follows the character development of Elizabeth Bennet."
+  },
+  {
+    "title": "The God of Small Things",
+    "author": "Arundhati Roy",
+    "year": 1997,
+    "description": "A story of fraternal twins and their family in Kerala, exploring themes of love, caste, and social discrimination."
+  },
+  {
+    "title": "Midnight's Children",
+    "author": "Salman Rushdie",
+    "year": 1981,
+    "description": "A magical realist novel that tells the story of children born at the stroke of midnight on India's independence day."
+  },
+  {
+    "title": "The White Tiger",
+    "author": "Aravind Adiga",
+    "year": 2008,
+    "description": "A darkly humorous novel about a poor Indian driver's journey to becoming a successful entrepreneur."
+  },
+  {
+    "title": "The Namesake",
+    "author": "Jhumpa Lahiri",
+    "year": 2003,
+    "description": "A story about the Ganguli family and their son Gogol, exploring themes of cultural identity and assimilation."
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "year": 2003,
+    "description": "A powerful story of friendship, betrayal, and redemption set in Afghanistan."
+  },
+  {
+    "title": "The Palace of Illusions",
+    "author": "Chitra Banerjee Divakaruni",
+    "year": 2008,
+    "description": "A retelling of the Mahabharata from Draupadi's perspective, exploring themes of power, love, and destiny."
+  },
+  {
+    "title": "The Guide",
+    "author": "R.K. Narayan",
+    "year": 1958,
+    "description": "A story about a tour guide who becomes a spiritual guide, exploring themes of transformation and redemption."
+  },
+  {
+    "title": "The Inheritance of Loss",
+    "author": "Kiran Desai",
+    "year": 2006,
+    "description": "A novel about the lives of people in India and the United States, exploring themes of globalization and cultural identity."
+  }
+] 

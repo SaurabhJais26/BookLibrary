@@ -8,14 +8,44 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = BookViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List(viewModel.filteredBooks) { book in
+                NavigationLink(destination: BookDetailView(book: book, viewModel: viewModel)) {
+                    BookRow(book: book, isFavorite: viewModel.isFavorite(book))
+                }
+            }
+            .listStyle(.plain)
+            .navigationTitle("Book Library")
+            .searchable(text: $viewModel.searchText, prompt: "Search books...")
         }
-        .padding()
+    }
+}
+
+struct BookRow: View {
+    let book: Book
+    let isFavorite: Bool
+    
+    var body: some View {
+        HStack {
+            VStack(alignment: .leading) {
+                Text(book.title)
+                    .font(.headline)
+                Text(book.author)
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+            }
+            
+            Spacer()
+            
+            if isFavorite {
+                Image(systemName: "heart.fill")
+                    .foregroundColor(.red)
+            }
+        }
+        .padding(.vertical, 4)
     }
 }
 
