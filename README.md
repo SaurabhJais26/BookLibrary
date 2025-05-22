@@ -21,7 +21,7 @@ A SwiftUI-based iOS application that allows users to browse and manage a collect
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/BookLibrary.git
+git clone https://github.com/SaurabhJais26/BookLibrary.git
 ```
 
 2. Open the project in Xcode:
@@ -69,29 +69,3 @@ The project follows the MVVM (Model-View-ViewModel) architecture pattern:
 - Favorites are stored in memory and will be lost when the app is closed
 - Search is performed client-side and may not be optimal for very large datasets
 - The app is designed for iOS 16.0 and above
-
-## Future Improvements
-
-- Implement persistent storage for favorites using UserDefaults or Core Data
-- Add book cover images
-- Implement server-side search for larger datasets
-- Add sorting and filtering options
-- Implement unit tests
-- Add support for offline mode
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details
-
-## Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-Project Link: [https://github.com/yourusername/BookLibrary](https://github.com/yourusername/BookLibrary) 
